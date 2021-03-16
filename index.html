@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Grid Static Practice</title>
+
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header-title">Taco Generator!</h1>
+        <h3 class="header_taco-title">
+          <span class="header_taco-element" id="header_title-base-layer">
+            Slow Cooked Carnitas</span
+          >
+          with
+          <span class="header_taco-element" id="header_title-mixin">
+            Braised Black Beans</span
+          >, garnished with
+          <span class="header_taco-element" id="header_title-condiment">
+            Roasted Corn Salsa</span
+          >, topped off with
+          <span class="header_taco-element" id="header_title-seasoning"
+            >Spicy Sriracha Seasoning</span
+          >
+          and wrapped in delicious
+          <span class="header_taco-element" id="header_title-shell">
+            Slow Cooked Carnitas</span
+          >
+        </h3>
+        <button class="button">Generate New Taco</button>
+      </header>
+      <main class="taco">
+        <section>
+          <section class="taco-component taco-base-layer">
+            <h4 class="taco-base-layer_title">Slow Cooked Carnitas</h4>
+            <p class="taco-base-layer_recipe">
+              Fat-Poached Carnitas Ingredients: *3 pounds of boneless pork
+              shoulder or uncured ham. *.5 cups of liquid fat. *15 cloves of
+              garlic. *1 thinly sliced lemon. *Coarse salt. *Black Pepper.
+              Instructions: 1. Heat oven to 250 degrees. 2. Cube pork shoulder
+              into 3 inch chucks. 3. Salt and pepper the cubes evenly. 4.
+              Tightly stuff cubes into a deep baking dish. 5. Stuff garlic and
+              lemon between cubes. 6. Cover cubes in liquified fat. 7. Bake for
+              5 hours. 8. Remove from oven and cover with foil. 9. Remove pork
+              from dish and spread out onto a baking pan. 10. Turn on broiler.
+              11. Broil pork until it's a bit blackened and crispy (around 4-6
+              minutes). 12. Remove from oven and shread with fork.
+            </p>
+          </section>
+
+          <section class="taco-component taco-mixin">
+            <h4 class="taco-mixin_title">Braised Black Beans</h4>
+            <p class="taco-mixin_recipe">Braise beans in a pan!</p>
+          </section>
+
+          <section class="taco-component taco-condiment">
+            <h4 class="taco-condiment_title">Rosted Corn Salsa</h4>
+            <p class="taco-condiment_recipe">Buy from Aldi!</p>
+          </section>
+
+          <section class="taco-component taco-seasoning">
+            <h4 class="taco-seasoning_title">Spicy Sriracha Seasoning</h4>
+            <p class="taco-seasoning_recipe">*Sprinkle* *Sprinkle*</p>
+          </section>
+
+          <section class="taco-component taco-shell">
+            <h4 class="taco-shell_title">Fresh Corn Tortilla</h4>
+            <p class="taco-shell_recipe">
+              Microwave store bought tortillas for about 10 seconds!
+            </p>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

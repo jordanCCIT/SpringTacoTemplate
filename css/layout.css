@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+
+  }
+  
+  .container {
+    margin: 2rem auto;
+    width: 80vw;
+  }
+  .footer {
+    background-color: #ff0;
+    color: #011;
+    height: 150px;
+  }
+  .header {
+    background-color: #f00;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-center;
+  }
+
+  .header-title {
+      display: flex;
+      justify-content: center;
+  }
+  .button {
+      display: flex;
+      justify-self: flex-end;
+      align-self: flex-end;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main__content {
+    display: grid;
+    grid-gap: 10px;
+  }
+  .taco {
+    background-color: #0f0;
+    /* FITS ALL TEXT INSIDE THIS ELEMENT!!!!!! */
+    overflow: scroll;
+    height: 74vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #011;
+  }
